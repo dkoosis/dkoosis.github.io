@@ -2,7 +2,13 @@
 <html>
   <head>
     <base target="_top">
-    <script src="//js.jotform.com/JotFormCustomWidget.min.js"></script>
+    <script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = '//js.jotform.com/JotFormCustomWidget.min.js?onload=onLoadCallback';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
   </head>
   <body>
         <div id="main">
